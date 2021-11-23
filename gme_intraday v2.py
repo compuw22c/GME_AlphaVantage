@@ -110,16 +110,17 @@ data = [trace1, trace2, trace3]
 updatemenus = list([
     dict(active=1,
          buttons=list([
-            dict(label='Log Scale',
-                 method='update',
-                 args=[{'visible': [True, True]},
-                       {'title': 'Log scale',
-                        'yaxis': {'type': 'log'}}]),
             dict(label='Linear Scale',
                  method='update',
                  args=[{'visible': [True, False]},
                        {'title': 'Linear scale',
-                        'yaxis': {'type': 'linear'}}])
+                        'yaxis': {'type': 'linear'}}]),
+            dict(label='Log Scale',
+                 method='update',
+                 args=[{'visible': [True, True]},
+                       {'title': 'Log scale',
+                        'yaxis': {'type': 'log'}}])
+
             ]),
         )
     ])
