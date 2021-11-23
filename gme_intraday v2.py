@@ -125,7 +125,7 @@ updatemenus = list([
         )
     ])
 
-layout = dict(updatemenus=updatemenus, title='Linear scale')
+layout = dict(updatemenus=updatemenus, title=stock)
 
 
 # Config graph layout
